@@ -1,0 +1,52 @@
+.body{
+
+}
+
+.navbar{
+    display: flex;
+    border: 2px solid black;
+}
+
+.header{
+    justify-content: flex-start;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+    font-size: 32px;
+    text-shadow: 2px 2px 2px beige;
+    margin-left: 5rem;
+}
+
+.navbar-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border: 2px solid red;
+    flex-grow: 1;
+    gap: 2rem;  
+    margin-right: 5rem;
+    font-size: 20px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+
+.content {
+
+}
+
+.top-content{
+
+}
+
+.middle-content {
+
+}
+
+.quote {
+
+}
+
+.more-info {
+
+}
+
+.footer {
+
+}
