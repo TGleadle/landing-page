@@ -27,11 +27,37 @@
     font-family: Helvetica, 'Times New Roman', sans-serif;
 }
 
-.content {
-
+.top-content{
+    display: flex;
+    background-color: #1F2937;
 }
 
-.top-content{
+.left-text {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+}
+
+.main-text {
+    font-size: 48px;
+    text-emphasis: extra-bold;
+    color: #F9FAF8;
+}
+
+.right-img {
+    justify-content: center;
+    align-items: center;
+}
+
+#austerlitz-img {
+    max-width: 500px;
+    max-height: 300px;
+    margin: 20px;
+    opacity: 90%;
+    box-shadow: 2px 2px 2px black;
+}
+
+.content {
 
 }
 
