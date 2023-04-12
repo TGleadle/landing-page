@@ -10,13 +10,11 @@ body {
     background-color: #1f2937;
     min-height: 60vh;
     flex-grow: 1;
-    border: 2px solid red;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    border: 2px solid green;
     align-items: center;
     padding-left: 30vh;
     padding-right: 30vh;
@@ -26,7 +24,6 @@ body {
 .header-logo {
     font-size: 30px;
     color: #F9FAF8;
-    border: 2px solid brown;
     font-weight: bold;
 }
 
@@ -34,7 +31,6 @@ body {
     display: flex;
     gap: 2rem;
     list-style: none;
-    border: 2px solid orange;
 }
 
 a {
@@ -51,14 +47,12 @@ a {
     padding-right: 30vh;
     flex-grow: 1;
     min-height: 40vh;
-    border: 2px solid black;
 }
 
 .top-text {
     flex-basis: 50%;
     color: #F9FAF8;
     justify-content: flex-start;
-    border: 2px solid red;
 }
 
 .h1-intro {
@@ -71,12 +65,23 @@ a {
     font-size: 18px;
 }
 
+.button-intro {
+    border: none;
+    background-color: #3882F6;
+    padding: 5px 15px 5px 15px;
+    color:#E5E7EB; 
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
 .top-image {
     justify-content: flex-end;
-    border: 2px solid blue;
 }
 
 .austerlitz-img {
-    max-height: 30vh;
+    max-height: 33vh;
     justify-content: flex-end;
+    box-shadow: 2px 2px 2px black;
 }
