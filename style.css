@@ -59,7 +59,7 @@ a {
 .h1-intro {
     font-size: 8vh;
     font-weight:bolder;
-    padding-right: 100px;
+    padding-right: 15vh;
 }
 
 .p-intro {
@@ -110,7 +110,7 @@ a {
 }
 
 .info-images {
-    border: 4px solid blue;
+    border: .6vh solid blue;
     border-radius: 1.2vh;
     height: 29vh;
     width: 23vh;
