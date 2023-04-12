@@ -105,7 +105,7 @@ a {
 
 .info-boxes {
     display: flex;
-    gap: 2rem;
+    gap: 2.3rem;
     justify-content: center;
 }
 
@@ -117,9 +117,9 @@ a {
 }
 
 .info-lowertext {
-    flex-grow: 1;
-    width: 24vh;
+    width: 25vh;
     padding: 3vh 0 15vh 0;
+    justify-content: center;
 }
 
 .quote {
