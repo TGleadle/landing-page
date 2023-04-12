@@ -43,8 +43,8 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 15vw;
-    padding-right: 15vw;
+    padding-left: 14vw;
+    padding-right: 14vw;
     flex-grow: 1;
     min-height: 40vh;
 }
