@@ -53,6 +53,7 @@ a {
     flex-basis: 50%;
     color: #F9FAF8;
     justify-content: flex-start;
+    padding-bottom: 5vh;
 }
 
 .h1-intro {
@@ -81,7 +82,41 @@ a {
 }
 
 .austerlitz-img {
-    max-height: 33vh;
+    max-height: 38vh;
     justify-content: flex-end;
     box-shadow: 2px 2px 2px black;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh;
+}
+
+.info-top-text {
+    justify-content: center;
+    font-size: 32px;
+    font-weight:bolder;
+    color:#1f2937;
+    margin: 7vh auto 7vh auto;
+}
+
+.info-boxes {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.info-images {
+    border: 4px solid blue;
+    border-radius: 8px;
+    height: 27vh;
+    width: 23vh;
+}
+
+.info-lowertext {
+    flex-grow: 1;
+    width: 24vh;
+    padding: 3vh 0 0 0;
 }
