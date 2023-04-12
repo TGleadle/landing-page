@@ -16,8 +16,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 14vw;
-    padding-right: 14vw;
+    padding-left: 30vh;
+    padding-right: 30vh;
     padding-bottom: 5vh;
 }
 
@@ -43,8 +43,8 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 14vw;
-    padding-right: 14vw;
+    padding-left: 30vh;
+    padding-right: 30vh;
     flex-grow: 1;
     min-height: 40vh;
 }
@@ -59,7 +59,7 @@ a {
 .h1-intro {
     font-size: 8vh;
     font-weight:bolder;
-    padding-right: 7.5vw;
+    padding-right: 15vh;
 }
 
 .p-intro {
@@ -113,7 +113,7 @@ a {
     border: .6vh solid blue;
     border-radius: 1.2vh;
     height: 29vh;
-    width: 12vw;
+    width: 24vh;
 }
 
 .info-lowertext {
