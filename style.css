@@ -29,14 +29,14 @@ body {
 
 .header-links {
     display: flex;
-    gap: 2rem;
+    gap: 1.5rem;
     list-style: none;
 }
 
 a {
     text-decoration: none;
     color: #E5E7EB;
-    font-size: 1.5vh;
+    font-size: 1.75vh;
 }
 
 .top-content {
@@ -151,7 +151,7 @@ a {
 
 .sign-up-box {
     background-color:#3882F6;
-    padding: 2vh 3vh 2vh 3vh;
+    padding: 0vh 3vh 2vh 3vh;
     width: 55vw;
     border-radius: 4px;
     display: flex;
@@ -171,7 +171,7 @@ a {
     align-items: center;
     height: 6vh;
     width: 18vh;
-    font-size: 20px;
+    font-size: 2.75vh;
     margin-top: 5vh;
     margin-right: 1vw;
 }
