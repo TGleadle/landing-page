@@ -92,7 +92,7 @@ a {
     flex-direction: column;
     align-items: center;
     height: 60vh;
-    padding-bottom: 20vh;
+    padding-bottom: 10vh;
 }
 
 .info-top-text {
@@ -100,7 +100,7 @@ a {
     font-size: 5vh;
     font-weight:bolder;
     color:#1f2937;
-    margin: 10vh auto 7vh auto;
+    margin: 7vh auto 7vh auto;
 }
 
 .info-boxes {
@@ -113,21 +113,74 @@ a {
     border: .6vh solid blue;
     border-radius: 1.2vh;
     height: 26vh;
-    width: 24vh;
+    width: 12vw;
     object-fit: cover;
 }
 
 .info-lowertext {
     margin-left: 1.2vh;
-    width: 24vh;
-    padding: 3vh 0 15vh 0;
-    justify-content: center;
+    width: 12vw;
+    padding: 3vh 0 10vh 0;
+
 }
 
 .quote {
     background-color: #E5E7EB;
-    min-height: 60vh;
+    min-height: 40vh;
     flex-grow: 1;
+    font-size: 3vh;
+    color: #1f2937;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-width {
+    width: 55vw;
+}
+
+.sign-up {
+    min-height: 40vh;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#E5E7EB;
+}
+
+.sign-up-box {
+    background-color:#3882F6;
+    padding: 2vh 3vh 2vh 3vh;
+    width: 55vw;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-up-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up-button {
+    display: flex;
+    border:2px solid #E5E7EB;
+    flex-grow: 0;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    width: 14vh;
+    font-size: 20px;
+    margin-top: 5vh;
+    margin-right: 2vw;
+}
+
+.footer {
+    height: 10vh;
+    background-color:#1f2937;
+    color:#E5E7EB;
+    font-size: 18px;
     display: flex;
     align-items: center;
     justify-content: center;
